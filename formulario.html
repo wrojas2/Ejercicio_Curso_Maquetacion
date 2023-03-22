@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+    <title>FORMULARIO</title>
+</head>
+<style>
+    body {
+        font-family: 'Shantell Sans', cursive;
+    }
+</style>
+
+<body>
+    <form>
+        <div>
+            <label for="cantante">cual es tu cantante favorito?</label>
+            <br>
+            <input type="text" id="cantante" name="cantante favorito">
+        </div>
+        <br>
+        <div>
+            <label for="music">cual es tu cancion favorita?</label>
+            <br>
+            <input type="text" id="music" name="musica favorita">
+        </div>
+        <br>
+        <div>
+            <p>selecciona tu genero de musica favorito?</p>
+            <input type="radio" id="salsa" name="genero" value="SALSA">
+            <label for="salsa">Salsa</label>
+            <input type="radio" id="vallenato" name="genero" value="VALLENATO">
+            <label for="vallenato">Vallenato</label>
+            <input type="radio" id="urbano" name="genero" value="URBANO">
+            <label for="urbano">Urbano</label>
+        </div>
+        <br>
+        <div>
+            <p>selecciona tus pasatiempos? </p>
+            <input type="checkbox" id="tiempo1" name="tiempo1" value="caminar">
+            <label for="tiempo1">me gusta caminar</label>
+            <br>
+            <input type="checkbox" id="tiempo2" name="tiempo2" value="bailar">
+            <label for="tiempo2">me gusta bailar</label>
+            <br>
+            <input type="checkbox" id="tiempo3" name="tiempo3" value="nadar">
+            <label for="tiempo3">me gusta nadar</label>       
+        </div>
+        <br>
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

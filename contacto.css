@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(138, 174, 253);
+}
+label {
+    color: rgb(214, 32, 32);
+}
+#env {
+    text-align: center;    
+}
+.bot-{
+    background-color: rgb(212, 212, 212);
+    color: rgb(252, 101, 0);
+}
+.borde-inferior{
+    border-bottom: 5px solid red;
+}
+.borde-derecho{
+    border-right: 5px solid rgb(13, 214, 130);    
+}
+.borde-izquierdo{
+    border-left: 5px solid rgb(255, 208, 0);
+}
+.borde-superior{
+    border-top: 5px solid rgb(238, 255, 0);
+}
+h1{
+    text-shadow: 4px 4px rgb(0, 110, 0);
+    color: gold;
+}
+.m-t{
+    margin-top: 50px;
+}
+.m-l{
+    margin-left: 200px;
+}
+.m-r{
+    margin-right: 200px;
+}
+.m-b{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="contacto.css">
+    <title>CONTACTO</title>
+</head>
+<style>
+    body {
+        font-family: 'Shantell Sans', cursive;
+    }
+</style>
+
+<body>
+    <form class="m-t m-l m-r m-b">
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <div>
+            <label for="nombre">Nombre Completo</label>
+            <br>
+            <input type="text" id="nombre" name="nombre completo">
+        </div>
+        <br>
+        <div>
+            <label for="correo">Correo Electronico</label>
+            <br>
+            <input class="sombra" type="email" name="correo electronico" id="correo" required>
+        </div>
+        <br>
+        <div>
+            <label for="asunto">Asunto</label>
+            <br>
+            <input class="sombra" type="text" id="asunto" name="asunto">
+        </div>
+        <br>
+        <div>
+            <label for="sede">Sede de Contacto:</label>
+            <select name="sede" id="sede">
+                <optgroup label="Bucaramanga">
+                    <option value="centro">Centro</option>
+                    <option value="norte">Norte</option>
+                </optgroup>
+                <optgroup label="Giron">
+                    <option value="parqueg">Parque Principal</option>
+                </optgroup>
+                <optgroup label="Floridablanca">
+                    <option value="parquef">Parque Principal</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="descripcion">Descripcion</label>
+            <br>
+            <textarea class="borde-izquierdo borde-derecho borde-superior borde-inferior" name="descripcion"
+                id="descripcion"  cols="40" rows="5"></textarea>
+        </div>
+        <br>
+        <div id="env">
+            <input class="bot- borde-izquierdo borde-derecho borde-superior borde-inferior" type="submit"
+                value="Enviar">
+            <input class="bot- borde-izquierdo borde-derecho borde-superior borde-inferior" type="reset"
+                value="cancelar">
+        </div>
+
+    </form>
+</body>
+
+</html>

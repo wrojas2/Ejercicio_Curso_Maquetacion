@@ -1,0 +1,76 @@
+body {
+    background-image: url(prueba.gif);
+    width: 900px;
+    height: 1100px;
+}
+
+.fondo_tabla {
+    background-color: rgb(245, 243, 242);
+    color: black;
+    border-color: darkred;
+}
+
+th {
+    color: black;
+}
+
+#overline {
+    text-decoration-line: overline;
+    text-decoration-color: rgb(45, 35, 175);
+    text-decoration-style: double;
+    text-decoration-skip: 10px;
+}
+
+#line-through {
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(13, 187, 71);
+    text-decoration-style: dashed;
+    text-decoration-skip: 10px;
+}
+
+#underline {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(252, 0, 0);
+    text-decoration-style: dotted;
+    text-decoration-skip: 10px;
+}
+
+#overline_underline {
+    text-decoration-line: overline underline;
+    text-decoration-color: rgb(255, 0, 221);
+    text-decoration-style: wavy;
+    text-decoration-skip: 10px;
+}
+
+#todo_en_uno {
+    text-decoration: underline darkblue wavy 6px;
+}
+
+.box-model {
+    width: 300px;
+    border: 15px solid rgb(21, 108, 238);
+    padding: 20px;
+    margin: 30px;
+    height: 200px;
+}
+
+div {
+    height: 350px;
+    width: 800px;
+}
+
+.o-w-s-c {
+    outline-width: 12px;
+    outline-style: dotted;
+    outline-color: darkorange;
+}
+
+.o-auto {
+    outline: 5px solid yellow;
+}
+
+.o-o {
+    outline: 10px solid rgb(35, 204, 13);
+    outline-offset: 5px;
+    margin-left: 20px;
+}
